@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.gangland"	name="[B]Gangland[/B]" version="1.0"	provider-name="daffy">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="gangland.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">gangland Addon</summary>
+    <description lang="en">Simply a scraper for the gangland documentaries! Enjoy!</description>
+    <platform>all</platform>
+    <license>GPL v2.0</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+    <news>Simply a scraper for the gangland documentaries! Enjoy! Daffy Loves ya!</news>
+  </extension>
+</addon>
