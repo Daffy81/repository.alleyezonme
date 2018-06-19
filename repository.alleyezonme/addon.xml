@@ -38,9 +38,9 @@
             <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
             <hashes>false</hashes>
         </dir>
-		<info compressed="false">https://raw.githubusercontent.com/Daffy81/repository.alleyezonme/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Daffy81/repository.alleyezonme/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Daffy81/repository.alleyezonme/zips/</datadir>					
+		<info compressed="false">https://raw.githubusercontent.com/Daffy81/repository.alleyezonme/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Daffy81/repository.alleyezonme/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Daffy81/repository.alleyezonme/master/zips/</datadir>					
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>All eyez on me addon and other addons hosted here.</summary>
