@@ -168,7 +168,7 @@
   	<email></email>
   </extension>
 </addon>
-<addon id="plugin.video.alleyezonme" name="[B]All Eyez On Me[/B]" version="06.16.18" provider-name="Tupac">
+<addon id="plugin.video.alleyezonme" name="[B]All Eyez On Me[/B]" version="06.25.18" provider-name="Tupac">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
