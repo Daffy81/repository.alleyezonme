@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.deathrow" name="[COLOR lightblue]Deathrow[/COLOR]" version="1.0" provider-name="Suge">
+<addon id="plugin.video.deathrow" name="[COLOR lightblue]Deathrow[/COLOR]" version="1.1" provider-name="Suge">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -10,6 +10,7 @@
         <import addon="script.module.xmltodict" version="0.9.0" />
         <!--<import addon="script.module.web-pdb" version="1.0"/>-->
         <import addon="script.module.resolveurl" />
+        <import addon="script.module.mobdro" version="11" />		
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>audio video</provides>
