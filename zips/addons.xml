@@ -234,7 +234,7 @@
 		<news></news>
 	</extension>
 </addon>
-<addon id="plugin.video.deathrow" name="[COLOR lightblue]Deathrow[/COLOR]" version="1.1" provider-name="Suge">
+<addon id="plugin.video.deathrow" name="[COLOR lightblue]Deathrow[/COLOR]" version="1.2" provider-name="Suge">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -243,12 +243,12 @@
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
         <import addon="script.module.xmltodict" version="0.9.0" />
-        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
         <import addon="script.module.resolveurl" />
+        <import addon="plugin.video.youtube" />
         <import addon="script.module.mobdro" version="11" />		
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>audio video</provides>
+        <provides>video</provides>
     </extension>
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
@@ -256,8 +256,10 @@
         <description lang="en">The best revenge in the world is success.</description>
         <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
         <platform>all</platform>
-        <website/>
-        <video_guide></video_guide>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <license>W33DWARE rev. 420</license>
+        <forum>http://www.aeom.cf</forum>
+        <website>http://www.aeom.cf</website>
     </extension>
 </addon>
 <addon id="plugin.video.djwho" name="[COLOR gold]DJ[/COLOR] [COLOR green]WHO[/COLOR]"	version="1.0.1"	provider-name="Dj Who"> 
@@ -1215,7 +1217,7 @@ Initial release.
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.video.motu" name="[B]Masters Of The Universe[/B]" version="06.25.18" provider-name="He-Man">
+<addon id="plugin.video.motu" name="[B]Masters Of The Universe[/B]" version="07.05.18" provider-name="He-Man">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -1224,12 +1226,12 @@ Initial release.
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
         <import addon="script.module.xmltodict" version="0.9.0" />
-        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
         <import addon="script.module.resolveurl" />
+        <import addon="plugin.video.youtube" />
         <import addon="script.module.mobdro" version="11" />		
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>audio video</provides>
+        <provides>video</provides>
     </extension>
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
@@ -1238,6 +1240,10 @@ Initial release.
       <disclaimer lang="en">Fabulous secret powers were revealed to me the day I held aloft my magic sword and said... By the power of Greyskull! He-Man: I have the Power! Cringer became the Mighty Battle Cat, and I became He-Man the most powerful man in the universe.</disclaimer>
 	  <news>Fabulous secret powers were revealed to me the day I held aloft my magic sword and said... By the power of Greyskull! He-Man: I have the Power! Cringer became the Mighty Battle Cat, and I became He-Man the most powerful man in the universe.</news>
 	  <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <license>W33DWARE rev. 420</license>
+        <forum>http://www.aeom.cf</forum>
+        <website>http://www.aeom.cf</website>
     </extension>
 </addon>
 <addon id="plugin.video.matchreplays" version="0.0.3" name="Match Replays" provider-name="catchup4kodi">
