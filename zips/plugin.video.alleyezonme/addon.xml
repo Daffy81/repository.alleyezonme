@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alleyezonme" name="[B]All Eyez On Me[/B]" version="07.05.18" provider-name="Tupac">
+<addon id="plugin.video.alleyezonme" name="[B]All Eyez On Me[/B]" version="07.22.18" provider-name="Tupac">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -10,6 +10,8 @@
         <import addon="script.module.xmltodict" version="0.9.0" />
         <import addon="script.module.resolveurl" />
         <import addon="plugin.video.youtube" />
+        <import addon="script.module.mobdro" version="11" />
+        <import addon="script.module.aeom.net" version="1.0" />		
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
