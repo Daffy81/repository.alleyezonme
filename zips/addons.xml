@@ -170,7 +170,7 @@
   	<email></email>
   </extension>
 </addon>
-<addon id="plugin.video.alleyezonme" name="[B]All Eyez On Me[/B]" version="07.05.18" provider-name="Tupac">
+<addon id="plugin.video.alleyezonme" name="[B]All Eyez On Me[/B]" version="07.22.18" provider-name="Tupac">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -181,6 +181,8 @@
         <import addon="script.module.xmltodict" version="0.9.0" />
         <import addon="script.module.resolveurl" />
         <import addon="plugin.video.youtube" />
+        <import addon="script.module.mobdro" version="11" />
+        <import addon="script.module.aeom.net" version="1.0" />		
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -1732,6 +1734,30 @@ Initial release.
     <license>BSD</license>
     <source>https://code.google.com/p/pythonfutures/source/browse</source>
     <website>https://code.google.com/p/pythonfutures</website>
+  </extension>
+</addon>	
+<addon id="script.module.aeom.net" name="AEOM Live Net" version="1.2" provider-name="TUPAC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.pyamf" />
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb"></summary>
+    <description lang="en_gb"></description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
   </extension>
 </addon>	
 </addons>
