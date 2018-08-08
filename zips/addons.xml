@@ -1013,7 +1013,7 @@ Initial release.
     <summary lang="en">[COLOR green][B]Cape Breton[/B][/COLOR][COLOR gold]Android Boxes[/COLOR] Repository</summary>
     <description lang="en">[COLOR green][B]Cape Breton[/B][/COLOR][COLOR gold]Android Boxes[/COLOR] Repository [COLOR green][B]Cape[/B] Breton[/COLOR] Builds and Various [B]Maintenance[/B] and [B]Development[/B] functions</description>
     <platform>all</platform>
-	</extension>
+		</extension>
 </addon>
     <addon id="repository.kodiuktv" name="KODIUKTV Repo" version="1.0.0" provider-name="KODIUKTV">
         <requires>
