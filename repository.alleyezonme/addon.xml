@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.alleyezonme" name="[B]All Eyez On Me Repository[/B]" version="06.19.18" provider-name="Tupac">
+<addon id="repository.alleyezonme" name="[B]All Eyez On Me Repository[/B]" version="08.22.18" provider-name="Tupac">
 	<extension point="xbmc.addon.repository" name="All Eyez On Me Repository">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
@@ -48,5 +48,3 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-
-
