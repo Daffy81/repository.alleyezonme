@@ -1028,7 +1028,7 @@ Initial release.
         <disclaimer lang="ru">Автор плагина не несет никакой ответственности за предъявленный контент.</disclaimer>
     </extension>
 </addon>
-<addon id="repository.alleyezonme" name="[B]All Eyez On Me Repository[/B]" version="06.19.18" provider-name="Tupac">
+<addon id="repository.alleyezonme" name="[B]All Eyez On Me Repository[/B]" version="08.22.18" provider-name="Tupac">
 	<extension point="xbmc.addon.repository" name="All Eyez On Me Repository">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
