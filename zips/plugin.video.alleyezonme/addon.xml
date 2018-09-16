@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alleyezonme" name="[B]All Eyez On Me[/B]" version="08.22.18" provider-name="Tupac">
+<addon id="plugin.video.alleyezonme" name="[B]All Eyez On Me[/B]" version="09.16.18" provider-name="Tupac">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.universalscrapers" version="1.0.0" />
+        <import addon="script.module.universalscrapers" version="1.1.0" />
         <import addon="script.module.python.koding.aio" version="0.9.6.6" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
@@ -28,7 +28,6 @@
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <license>W33DWARE rev. 420</license>
         <forum>http://www.aeom.cf</forum>
-        <website>http://www.aeom.cf</website>
+        <website>http://www.aeom.cf</website>	
     </extension>
-
 </addon>
