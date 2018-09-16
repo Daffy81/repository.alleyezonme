@@ -2,7 +2,7 @@
 <addon id="plugin.video.alleyezonme" name="[B]All Eyez On Me[/B]" version="09.16.18" provider-name="Tupac">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.universalscrapers" version="1.1.0" />
+        <import addon="script.module.universalscrapers" version="1.0.0" />
         <import addon="script.module.python.koding.aio" version="0.9.6.6" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
@@ -11,9 +11,9 @@
         <import addon="script.module.dateutil" />
         <!--<import addon="script.module.web-pdb" version="1.0"/>-->
         <import addon="script.module.resolveurl" />
-        <import addon="plugin.video.youtube" />
+        <!--<import addon="script.module.urlresolver" />-->
         <import addon="script.module.mobdro" version="11" />
-        <import addon="script.module.aeom.net" version="1.0" />	
+        <import addon="script.module.aeom.net" version="1.0" />			
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>audio video</provides>
