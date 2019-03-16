@@ -218,7 +218,7 @@ v5.0.15 (2016-11-26) by amet
   	<email></email>
   </extension>
 </addon>
-<addon id="plugin.video.alleyezonme" name="[B]All Eyez On Me[/B]" version="02.27.19" provider-name="Tupac">
+<addon id="plugin.video.alleyezonme" name="[B]All Eyez On Me[/B]" version="16.03.19" provider-name="Tupac">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
