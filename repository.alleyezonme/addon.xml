@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.alleyezonme" name="[B]All Eyez On Me Repository[/B]" version="08.22.18" provider-name="Tupac">
+<addon id="repository.alleyezonme" name="[B]All Eyez On Me Repository[/B]" version="06.16.19" provider-name="Tupac">
 	<extension point="xbmc.addon.repository" name="All Eyez On Me Repository">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
@@ -11,11 +11,6 @@
 			<checksum>https://raw.githubusercontent.com/covenantkodi/repository.colossus/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/covenantkodi/repository.colossus/master/</datadir>
 		</dir>
-		<dir>
-			<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-			<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
-		</dir>	
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Dependencies/xvbmc-addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Dependencies/xvbmc-addons.xml.md5</checksum>
